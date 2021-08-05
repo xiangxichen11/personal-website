@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hi, I'm Xiang Xi
-        </a>
-      </header>
+      <body className="App-body">
+        <h1>Hi, I'm XiangXi</h1>
+          <div>
+            <img src="https://st1.bollywoodlife.com/wp-content/uploads/2020/11/Jungkook-BTS.jpg" class="Jungkook" alt="Jungkook" ></img>
+          </div>
+
+      </body>
+
+        
     </div>
   );
 }
