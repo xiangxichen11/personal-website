@@ -1,0 +1,36 @@
+.Navbar-header {
+    background-color: lightblue;
+    position: 
+}
+
+.Navbar {
+    display: flex;
+    top: 0;
+    bottom: 100px;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.Home {
+    margin: 0 2vw;
+    position: auto;
+}
+Home:visited {
+    color: white;
+}
+
+.About {
+    margin: 0 2vw;
+    position: auto;
+}
+
+.Projects {
+    margin: 0 2vw;
+    position: auto;
+}
+
+.Contact {
+    margin: 0 2vw;
+    position: auto;
+}

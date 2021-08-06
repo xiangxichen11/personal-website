@@ -1,19 +1,24 @@
 import React from 'react';
-import './App.css';
+import {BrowserRouter, Route, Switch } from "react-router-dom"; 
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Navbar from './Components/Navbar';
+
 
 function App() {
   return (
-    <div className="App">
-      <body className="App-body">
-        <h1>Hi, I'm XiangXi</h1>
-          <div>
-            <img src="https://st1.bollywoodlife.com/wp-content/uploads/2020/11/Jungkook-BTS.jpg" class="Jungkook" alt="Jungkook" ></img>
-          </div>
+    <BrowserRouter>
+    <Navbar />
+      <Switch>
+        <Route component={Home} path='/personal-website' exact/>
+        <Route component={About} path='/personal-website/about'/>
+        <Route component={Projects} path='/personal-website/projects'/>
+        <Route component={Contact} path='/personal-website/contact'/>
 
-      </body>
-
-        
-    </div>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
