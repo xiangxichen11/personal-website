@@ -4,19 +4,19 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <header class="Navbar-header">
-            <div class="Navbar">
-                <nav className="flex">
-                    <NavLink to="/personal-website" exact class="Home">
+        <header className="Nav-header">
+            <div className="Nav-div">
+                <nav className="Navbar">
+                    <NavLink to="/personal-website" exact className="Home" >
                         Home
                     </NavLink>
-                    <NavLink to="/personal-website/about" class="About">
+                    <NavLink to="/personal-website/about" className="About">
                         About
                     </NavLink>
-                    <NavLink to="/personal-website/projects" class="Projects">
+                    <NavLink to="/personal-website/projects" className="Projects">
                         Projects
                     </NavLink>
-                    <NavLink to="/personal-website/contact" class="Contact">
+                    <NavLink to="/personal-website/contact" className="Contact">
                         Contact
                     </NavLink>
                     

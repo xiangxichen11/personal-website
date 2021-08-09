@@ -1,36 +1,71 @@
-.Navbar-header {
-    background-color: lightblue;
-    position: 
+.Nav-header {
+    background-color: #282c34;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.Nav-div {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Navbar {
     display: flex;
-    top: 0;
-    bottom: 100px;
-    flex-direction: column;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
 }
 
 .Home {
-    margin: 0 2vw;
-    position: auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 16px;
+    margin-right: 4px;
+    text-decoration: none;
+    color: #f2f2f2;
 }
-Home:visited {
-    color: white;
+
+.Home:hover {
+    color: red;
+    background-color: lightpink;
 }
 
 .About {
-    margin: 0 2vw;
-    position: auto;
+    display: inline-flex;
+    align-items: center; 
+    padding: 14px 16px;
+    margin-right: 4px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.About:hover {
+    color: red;
+    background-color: lightpink;
 }
 
 .Projects {
-    margin: 0 2vw;
-    position: auto;
+    display: inline-flex;
+    align-items: center; 
+    padding: 14px 16px;
+    margin-right: 4px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.Projects:hover {
+    color: red;
+    background-color: lightpink;
 }
 
 .Contact {
-    margin: 0 2vw;
-    position: auto;
+    display: inline-flex;
+    align-items: center; 
+    padding: 14px 16px;
+    margin-right: 4px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.Contact:hover {
+    color: red;
+    background-color: lightpink;
 }
