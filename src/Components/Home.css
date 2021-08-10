@@ -1,0 +1,41 @@
+body {
+    background-color:#282c34;
+}
+
+.hi p {
+    color: #f2f2f2;
+    font-size: 24px;
+    top: 50%;
+
+}
+
+.typewriter p {
+    position: relative;
+    top: 50%;
+    width: 20em;
+    color: #f2f2f2;
+    font-size: 24px;
+    /* margin: 0 auto; */
+    border-right: 4px solid rgba(255, 255, 255, .75);
+    /* text-align: center; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    padding-bottom: 0 !important;
+    animation: typing 1s steps(12), blink-caret 0.5s step-end infinite normal;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.Profile-Photo {
+    float: right;
+}
