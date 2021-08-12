@@ -29,7 +29,7 @@ body {
     white-space: nowrap;
     overflow-x: hidden;
     border-right: 0.15em solid orange;
-    animation: typing 1.5s steps(37) 1s normal both, blink-caret 0.5s step-end infinite;
+    animation: typing 1.5s steps(37) 1s normal both, blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {

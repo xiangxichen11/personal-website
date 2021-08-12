@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Home.css";
-import image from "./Images/background.jpg"
 
 
 export default function Home(){
+    document.title = "XiangXiChen/Home";
     return (
         <main>
             <div>
