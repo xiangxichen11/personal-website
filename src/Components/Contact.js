@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <main>
       <div>
-          <title>Contact page</h1>
+          <title>Contact page</title>
       </div>
       <div>
           <h2>Add me on ig @xiangxichen</h2>
