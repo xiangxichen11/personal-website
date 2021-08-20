@@ -9,19 +9,25 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
-.Navbar {
+.Nav-left {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    float: none;
 }
 
 .Home {
     display: inline-flex;
-    align-items: center;
     padding: 14px 16px;
-    margin-right: 4px;
+    margin-left: 30px;
     text-decoration: none;
     color: #f2f2f2;
+    font-size: 20px;
+    
 }
 
 .Home:hover {
@@ -31,7 +37,6 @@
 
 .About {
     display: inline-flex;
-    align-items: center; 
     padding: 14px 16px;
     margin-right: 4px;
     text-decoration: none;
@@ -45,7 +50,6 @@
 
 .Projects {
     display: inline-flex;
-    align-items: center; 
     padding: 14px 16px;
     margin-right: 4px;
     text-decoration: none;
@@ -59,7 +63,6 @@
 
 .Contact {
     display: inline-flex;
-    align-items: center; 
     padding: 14px 16px;
     margin-right: 4px;
     text-decoration: none;
@@ -68,4 +71,10 @@
 .Contact:hover {
     color: red;
     background-color: lightpink;
+}
+
+.Nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
