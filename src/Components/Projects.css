@@ -1,0 +1,11 @@
+.personal-projects {
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.experience{
+    color: #f2f2f2;
+    text-align: center;
+    transform: translateY(25vh);
+}
